@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context="com.myemcu.toolbar.MainActivity">
+    android:orientation="vertical">
 
     <!--添加ToolBar到布局文件-->
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        />
+        android:background="?attr/colorPrimary"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,4 +18,4 @@
         android:layout_below="@+id/toolbar"
         android:textSize="30sp"
         android:text="Hello Android!"/>
-</RelativeLayout>
+</LinearLayout>

@@ -9,7 +9,7 @@
 
         <item name="windowActionBar">false</item> <!--加这行 -->
         <item name="windowNoTitle">true</item> <!--再加这行 -->
-        <item name="titleTextColor">#fff000</item>
+        <item name="titleTextColor">#ffffff</item>
 
     </style>
 

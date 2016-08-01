@@ -13,5 +13,14 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //AppLog
+        toolbar.setLogo(R.mipmap.ic_launcher);
+        // Title
+        //toolbar.setTitle("My Title");
+        // Sub Title
+        //toolbar.setSubtitle("Sub title");
+
+        //toolbar.setNavigationIcon(R.mipmap.ic_launcher);
     }
 }
